@@ -75,7 +75,7 @@ RUN python3 -m ensurepip \
 # Clone repo and prepare working directory
 #
 
-RUN git clone -b sql-extended https://github.com/sreekfreak995/PaperplaneExtended.git /root/userbot
+RUN git clone -b sql-extended https://github.com/Mayank732001/PaperplaneExtended.git /root/userbot
 RUN mkdir /root/userbot/.bin
 WORKDIR /root/userbot/
 ENV PATH="/root/userbot/.bin:$PATH"
